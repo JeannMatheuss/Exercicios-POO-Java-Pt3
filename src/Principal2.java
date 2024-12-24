@@ -11,5 +11,9 @@ public class Principal2 {
 
 
         Gato gato = new Gato();
+        gato.setNome("Kitty");
+        gato.setIdade(2);
+        gato.setCor("Branco");
+        gato.setRaca("Persa");
     }
 }
