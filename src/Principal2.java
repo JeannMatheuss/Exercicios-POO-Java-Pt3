@@ -19,5 +19,12 @@ public class Principal2 {
 
         // Ficha com as informações do cachorro
         cachorro.fichaDoAnimal();
+
+        // Emitindo som
+        Animal animal1 = new Cachorro();
+        Animal animal2 = new Gato();
+
+        animal1.emitirSom();
+        animal2.emitirSom();
     }
 }
