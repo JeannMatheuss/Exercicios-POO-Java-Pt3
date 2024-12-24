@@ -69,5 +69,9 @@ public class Carro {
         return menor;
     }
 
+    public void exibirMaiorMenor() {
+        System.out.println("O maior preço foi: " + getMaiorPreco());
+        System.out.println("O menor preço foi: " + getMenorPreco());
+    }
 
 }

@@ -25,6 +25,7 @@ public class Principal1 {
         modelo.exibirFichaDoCarro();
         modelo.precosAoLongoDosAnos();
 
+        modelo.exibirMaiorMenor();
 
     }
 }
