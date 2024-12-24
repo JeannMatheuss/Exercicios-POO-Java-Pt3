@@ -1,3 +1,4 @@
+import br.com.exercicios.modelos2.Animal;
 import br.com.exercicios.modelos2.Cachorro;
 import br.com.exercicios.modelos2.Gato;
 
@@ -15,5 +16,8 @@ public class Principal2 {
         gato.setIdade(2);
         gato.setCor("Branco");
         gato.setRaca("Persa");
+
+        // Ficha com as informações do cachorro
+        cachorro.fichaDoAnimal();
     }
 }

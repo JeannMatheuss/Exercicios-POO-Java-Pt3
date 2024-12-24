@@ -38,9 +38,12 @@ public class Animal {
         this.cor = cor;
     }
 
-
-
-
+    public void fichaDoAnimal() {
+        System.out.println("Nome: " + getNome());
+        System.out.println("Idade: " + getIdade());
+        System.out.println("Raça: " + getRaca());
+        System.out.println("Cor: " + getCor());
+    }
 
     public void emitirSom() {
         System.out.println("O animal está emitindo um som");
