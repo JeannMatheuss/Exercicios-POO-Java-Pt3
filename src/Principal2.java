@@ -28,3 +28,5 @@ public class Principal2 {
         animal2.emitirSom();
     }
 }
+
+// Exercicio FINALIZADO
