@@ -6,4 +6,8 @@ public class Cachorro extends Animal{
     public void emitirSom() {
         System.out.println("Au au");
     }
+
+    public void abanarRabo() {
+        System.out.println("O cachorro está abanando o rabo");
+    }
 }
