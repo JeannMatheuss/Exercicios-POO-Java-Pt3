@@ -66,18 +66,7 @@ public class ModeloCarro extends Carro {
     public void setTipoDeSuspensao(String tipoDeSuspensao) {
         this.tipoDeSuspensao = tipoDeSuspensao;
     }
-
-
-    public void exibirTipo() {
-        System.out.println("Tipo de Carro: " + this.tipoDeCarro);
-        System.out.println("Tipo de Cor: " + this.tipoDeCor);
-        System.out.println("Tipo de Pneu: " + this.tipoDePneu);
-        System.out.println("Tipo de Motor: " + this.tipoDeMotor);
-        System.out.println("Tipo de Cambio: " + this.tipoDeCambio);
-        System.out.println("Tipo de Freio: " + this.tipoDeFreio);
-        System.out.println("Tipo de Suspensao: " + this.tipoDeSuspensao);
-    }
-
+    
     public int getAnoDeFabricacao() {
         return anoDeFabricacao;
     }
@@ -85,6 +74,19 @@ public class ModeloCarro extends Carro {
     public void setAnoDeFabricacao(int anoDeFabricacao) {
         this.anoDeFabricacao = anoDeFabricacao;
     }
+
+    public void exibirFichaDoCarro() {
+        System.out.println("Nome do Modelo: " + getNomeDoModelo());
+        System.out.println("Ano de Fabricação: " + getAnoDeFabricacao());
+        System.out.println("Tipo de Carro" + getTipoDeCarro());
+        System.out.println("Tipo de Motor: " + getTipoDeMotor());
+        System.out.println("Tipo de Cor: " + getTipoDeCor());
+        System.out.println("Tipo de Pneu: " + getTipoDePneu());
+        System.out.println("Tipo de Câmbio: " + getTipoDeCambio());
+        System.out.println("Tipo de Freio: " + getTipoDeFreio());
+        System.out.println("Tipo de Suspenção: " + getTipoDeSuspensao());
+    }
+
 
     
 }
