@@ -46,6 +46,28 @@ public class Carro {
         System.out.println("Preço do ano seguinte (ano 3): R$ " + precoAno3);
     }
 
-    
+    // Metodos dos preços (maior e menor)
+    public double getMaiorPreco() {
+        double maior = precoAno1; // Assume que o primeiro preço é o maior
+        if (precoAno2 > maior) {
+            maior = precoAno2;
+        }
+        if (precoAno3 > maior) {
+            maior = precoAno3;
+        }
+        return maior;
+    }
+
+    public double getMenorPreco() {
+        double menor = precoAno1;
+        if (precoAno2 < menor) {
+            menor = precoAno2;
+        }
+        if (precoAno3 < menor) {
+            menor = precoAno3;
+        }
+        return menor;
+    }
+
 
 }
