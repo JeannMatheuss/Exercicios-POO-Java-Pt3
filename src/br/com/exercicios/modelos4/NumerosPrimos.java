@@ -12,4 +12,15 @@ public class NumerosPrimos {
         }
         return true;
     }
+
+    public void listarPrimos(int limiteSuperior) {
+        System.out.println("Números primos até " + limiteSuperior + ": ");
+        for (int i = 2; i <= limiteSuperior; i++) {
+            if (verificarPrimalidade(i)) {
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println();
+    }
+    
 }
