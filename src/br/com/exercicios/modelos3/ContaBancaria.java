@@ -1,7 +1,7 @@
 package br.com.exercicios.modelos3;
 
 public class ContaBancaria {
-    private double saldo;
+    protected double saldo;
 
     public void depositar(double valor) {
         saldo+=valor;
