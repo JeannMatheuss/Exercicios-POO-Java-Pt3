@@ -1,29 +1,10 @@
 package br.com.exercicios.modelos3;
 
 public class ContaBancaria {
-    private double depositar;
-    private double sacar;
-    private double consultarSaldo;
+    private double saldo;
 
-
-    public double getDepositar() {
-        return depositar;
+    public void depositar(double valor) {
+        saldo+=valor;
+        System.out.println("Depósito de " + valor + "realizado. Saldo atual: " + saldo);
     }
-    public void setDepositar(double depositar) {
-        this.depositar = depositar;
-    }
-    public double getSacar() {
-        return sacar;
-    }
-    public void setSacar(double sacar) {
-        this.sacar = sacar;
-    }
-    public double getConsultarSaldo() {
-        return consultarSaldo;
-    }
-    public void setConsultarSaldo(double consultarSaldo) {
-        this.consultarSaldo = consultarSaldo;
-    }
-
-    
 }
