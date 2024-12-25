@@ -18,6 +18,8 @@ public class ContaBancaria {
         }
     }
 
-    
+    public void consultarSaldo() {
+        System.out.println("Saldo atual: " + saldo);
+    }
 
 }
